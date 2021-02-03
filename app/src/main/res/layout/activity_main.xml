@@ -37,85 +37,100 @@
             android:text = "7"
             android:layout_column="0"
             android:layout_row="3"
-            android:onClick="onNumberClick"/>
+            android:onClick="onNumberClick"
+            android:layout_margin="5dp"/>
 
         <Button
             android:text = "8"
             android:layout_column="1"
             android:layout_row="3"
-            android:onClick="onNumberClick"/>
+            android:onClick="onNumberClick"
+            android:layout_margin="5dp"/>
         <Button
             android:text = "9"
             android:layout_column="2"
             android:layout_row="3"
-            android:onClick="onNumberClick"/>
+            android:onClick="onNumberClick"
+            android:layout_margin="5dp"/>
         <Button
             android:text = "+"
             android:layout_column="3"
             android:layout_row="3"
-            android:onClick="onOperationClick"/>
+            android:onClick="onOperationClick"
+            android:layout_margin="5dp"/>
         <Button
             android:text = "4"
             android:layout_column="0"
             android:layout_row="4"
-            android:onClick="onNumberClick" />
+            android:onClick="onNumberClick"
+            android:layout_margin="5dp"/>
         <Button
             android:text = "5"
             android:layout_column="1"
             android:layout_row="4"
-            android:onClick="onNumberClick"/>
+            android:onClick="onNumberClick"
+            android:layout_margin="5dp"/>
         <Button
             android:text = "6"
             android:layout_column="2"
             android:layout_row="4"
-            android:onClick="onNumberClick"/>
+            android:onClick="onNumberClick"
+            android:layout_margin="5dp"/>
         <Button
             android:text = "-"
             android:layout_column="3"
             android:layout_row="4"
-            android:onClick="onOperationClick"/>
+            android:onClick="onOperationClick"
+            android:layout_margin="5dp"/>
         <Button
             android:text = "3"
             android:layout_column="2"
             android:layout_row="5"
-            android:onClick="onNumberClick"/>
+            android:onClick="onNumberClick"
+            android:layout_margin="5dp"/>
         <Button
             android:text = "2"
             android:layout_column="1"
             android:layout_row="5"
-            android:onClick="onNumberClick"/>
+            android:onClick="onNumberClick"
+            android:layout_margin="5dp"/>
         <Button
             android:text = "1"
             android:layout_column="0"
             android:layout_row="5"
-            android:onClick="onNumberClick"/>
+            android:onClick="onNumberClick"
+            android:layout_margin="5dp"/>
         <Button
             android:text = "*"
             android:layout_column="3"
             android:layout_row="5"
-            android:onClick="onOperationClick"/>
+            android:onClick="onOperationClick"
+            android:layout_margin="5dp"/>
         <Button
             android:text = "0"
             android:layout_column="0"
             android:layout_row="6"
-            android:onClick="onNumberClick"/>
+            android:onClick="onNumberClick"
+            android:layout_margin="5dp"/>
         <Button
             android:text = ","
             android:layout_column="1"
             android:layout_row="6"
             android:onClick="onNumberClick"
+            android:layout_margin="5dp"
             />
         <Button
             android:text = "/"
             android:layout_column="2"
             android:layout_columnSpan="2"
-            android:layout_gravity="fill"
+            android:layout_gravity="fill_horizontal"
             android:layout_row="6"
             android:onClick="onOperationClick"/>
         <Button
             android:text = "="
             android:layout_columnSpan="4"
-            android:layout_gravity="fill"
+            android:layout_gravity="fill_horizontal"
             android:layout_row="7"
-            android:onClick="onOperationClick"/>
+            android:onClick="onOperationClick"
+            android:layout_margin="5dp"/>
     </GridLayout>
